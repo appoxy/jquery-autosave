@@ -121,7 +121,7 @@
                     if ($(this).is(':radio') && $(this).attr('checked')==false)
                         return;
                     if(this.name == "id"){
-                        alert("id=" + $(this).val());
+//                        alert("id=" + $(this).val());
                     }
                     vals[this.name] = $(this).is(':checkbox') ? 
                         $(this).attr('checked') : 
