@@ -62,10 +62,10 @@
             options.grouped = true;
             elems = nodes = $(this).find(":input,button");
             // Bind to forms submit
-            $(this).bind('submit', function(e) {
-                e.preventDefault();
-                $.fn.autosave._makeRequest(e, nodes, options, $(this));
-            });
+//            $(this).bind('submit', function(e) {
+//                e.preventDefault();
+//                $.fn.autosave._makeRequest(e, nodes, options, $(this));
+//            });
         }
         /**
          * For each element selected (typically a list of form elements
