@@ -74,7 +74,7 @@
          * onchange/onblur events for submitting
          */
         elems.each(function(i) {
-            eventName = $(this).is('button,:submit') ? 'click' : 'change';
+            eventName = 'change'; // $(this).is('button,:submit') ? 'click' : 'change';
             $(this).bind(eventName, function (e) {
                 eventName == 'click' ? e.preventDefault() : false;
                 $.fn.autosave._makeRequest(e, nodes, options, this);
