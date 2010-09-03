@@ -131,6 +131,7 @@
                 $(actsOn).attr('checked') : 
                 $(actsOn).val();
         }
+        console.log(vals);
         /**
          * Perform http request and trigger callbacks respectively
          */
